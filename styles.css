@@ -110,6 +110,46 @@ nav.primary a:hover { opacity: 1; }
   margin-top: 36px;
 }
 
+/* About */
+.about-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 48px;
+}
+
+.about-photo img {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 28px rgba(11, 29, 51, 0.12);
+  display: block;
+}
+
+.about-text p.name-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 6px 0 18px;
+}
+
+.about-text p.name-title span {
+  display: block;
+  font-weight: 500;
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+@media (max-width: 640px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+}
+
 .btn {
   display: inline-block;
   padding: 14px 26px;
