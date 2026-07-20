@@ -25,3 +25,7 @@ Neither value ever belongs in a chat or in this repo — see
 [`tokens/TOKEN-MODEL.md`](https://github.com/gcmazza/mazzag-consulting/blob/main/tokens/TOKEN-MODEL.md)
 in the office repo. Until both secrets are set, merges to `main` will fail
 at the deploy step — the site itself is unaffected.
+
+Both secrets and the Cloudflare Pages project (`mazzag-website`, Direct
+Upload) are now configured — this merge is the deploy pipeline's first
+real test end to end.
