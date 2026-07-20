@@ -1,4 +1,4 @@
-# Mazza-G Consulting Services — website
+# Mazza Strategic Finance Consulting — website
 
 This is the **workshop** repo: the actual website, kept separate from
 [`mazzag-consulting`](https://github.com/gcmazza/mazzag-consulting) (the
