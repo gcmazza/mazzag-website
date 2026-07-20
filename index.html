@@ -65,6 +65,8 @@
 </head>
 <body>
 
+<div class="top-bar" aria-hidden="true"></div>
+
 <header class="site">
   <div class="wrap">
     <a class="brand" href="#top">
@@ -106,12 +108,11 @@
       </g>
     </svg>
     <div class="wrap">
-      <h1>Interim CFO services for private equity portfolio companies.</h1>
+      <h1>Interim CFO services for <em>private equity</em> portfolio companies.</h1>
       <div class="rule"></div>
       <p class="tagline">Plus AI-driven process transformation, and CFO and fundraising advisory for edge data center companies.</p>
       <div class="cta-row">
-        <a class="btn primary" href="tel:+16123560761">Call 612-356-0761</a>
-        <a class="btn secondary" href="mailto:gcmazza@gmail.com">Email gcmazza@gmail.com</a>
+        <a class="btn primary" href="#contact">Contact Me</a>
       </div>
     </div>
   </section>
@@ -126,6 +127,12 @@
         <p class="name-title">Gregory Mazza <span>Founder &amp; Principal</span></p>
         <p class="lead">Gregory Mazza is the founder and principal of Mazza-G Consulting Services, bringing 20+ years of finance leadership to private equity-backed and mid-market companies. His background spans M&amp;A transactions, cash flow management, and board-level reporting &mdash; now extended into AI-driven process transformation and fundraising advisory for edge data center companies as those disciplines increasingly intersect with the CFO function.</p>
       </div>
+    </div>
+  </section>
+
+  <section class="statement">
+    <div class="wrap">
+      <p class="reveal">Institutional-grade financial discipline &mdash; applied wherever the business is headed next.</p>
     </div>
   </section>
 
@@ -218,17 +225,50 @@
   <section class="contact" id="contact">
     <div class="wrap">
       <h2 class="reveal">Get in touch</h2>
-      <p class="lead reveal">Reach out directly &mdash; no forms, no gatekeepers.</p>
-      <div class="contact-grid reveal">
-        <div class="contact-card">
-          <div class="label">Phone</div>
-          <a href="tel:+16123560761">612-356-0761</a>
+      <p class="lead reveal">Tell me about your situation and I&rsquo;ll respond directly &mdash; no gatekeepers.</p>
+
+      <form class="contact-form reveal" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="44ba6ff8-2cd3-4022-b718-73e0b986dec6">
+        <input type="hidden" name="subject" value="New inquiry from mazzagconsulting.com">
+        <input type="hidden" name="from_name" value="Mazza-G Consulting Services website">
+        <input type="text" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
+        <div class="form-row">
+          <div class="field">
+            <label for="first_name">First name</label>
+            <input type="text" id="first_name" name="first_name" required>
+          </div>
+          <div class="field">
+            <label for="last_name">Last name</label>
+            <input type="text" id="last_name" name="last_name" required>
+          </div>
         </div>
-        <div class="contact-card">
-          <div class="label">Email</div>
-          <a href="mailto:gcmazza@gmail.com">gcmazza@gmail.com</a>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company">
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
         </div>
-      </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="field">
+          <label for="message">How can I help?</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn primary">Send Inquiry</button>
+      </form>
+
+      <p class="contact-direct">Prefer to reach out directly? Call <a href="tel:+16123560761">612-356-0761</a> or email <a href="mailto:gcmazza@gmail.com">gcmazza@gmail.com</a>.</p>
     </div>
   </section>
 
