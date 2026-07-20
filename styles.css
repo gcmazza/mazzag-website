@@ -290,6 +290,48 @@ section p.lead {
   margin-top: 6px;
 }
 
+/* Logo wall */
+.logowall {
+  background: var(--paper);
+  padding: 72px 0;
+}
+
+.logowall-label {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 32px;
+}
+
+.logowall-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px 40px;
+}
+
+.logowall-list li {
+  font-size: 0.98rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  opacity: 0.62;
+}
+
+@media (max-width: 640px) {
+  .logowall-list {
+    gap: 12px 24px;
+  }
+  .logowall-list li {
+    font-size: 0.88rem;
+  }
+}
+
 /* Services */
 .services-grid {
   display: grid;
