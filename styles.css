@@ -312,7 +312,7 @@ section p.lead {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 16px 40px;
+  gap: 24px 40px;
 }
 
 .logowall-list li {
@@ -326,8 +326,9 @@ section p.lead {
 }
 
 .logowall-list img {
-  height: 34px;
+  height: 46px;
   width: auto;
+  max-width: 130px;
   display: block;
   filter: grayscale(1);
 }
