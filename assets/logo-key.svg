@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" role="img" aria-labelledby="logoKeyTitle">
+  <title id="logoKeyTitle">Mazza Strategic Finance Consulting key mark</title>
+  <g fill="none" stroke="#f7f5f0" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M100,16 L184,105 L100,194 L16,105 Z"/>
+    <path d="M100,42 L162,105 L100,168 L38,105 Z"/>
+    <path d="M64,158 L64,68 L100,112 L136,68 L136,158"/>
+  </g>
+  <rect x="94" y="112" width="12" height="168" fill="#f7f5f0"/>
+  <g fill="#f7f5f0">
+    <rect x="106" y="216" width="30" height="11"/>
+    <rect x="106" y="235" width="44" height="11"/>
+    <rect x="106" y="254" width="22" height="11"/>
+  </g>
+</svg>
