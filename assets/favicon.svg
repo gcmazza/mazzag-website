@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="favTitle">
+  <title id="favTitle">Mazza Strategic Finance Consulting favicon</title>
+  <rect width="64" height="64" rx="8" fill="#1b241f"/>
+  <svg x="7" y="5" width="50" height="54" viewBox="0 0 200 210">
+    <g fill="none" stroke="#f7f5f0" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M100,16 L184,105 L100,194 L16,105 Z"/>
+      <path d="M100,42 L162,105 L100,168 L38,105 Z"/>
+      <path d="M64,158 L64,68 L100,112 L136,68 L136,158"/>
+    </g>
+  </svg>
+</svg>
