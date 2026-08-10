@@ -29,3 +29,16 @@ at the deploy step — the site itself is unaffected.
 Both secrets and the Cloudflare Pages project (`mazzag-website`, Direct
 Upload) are now configured — this merge is the deploy pipeline's first
 real test end to end.
+
+## Custom domain
+
+The site is meant to serve from `www.mazza-consulting.com`. Attaching a
+custom domain and setting up mail for it are dashboard-only steps —
+there's no repo file or GitHub Action for either:
+
+- **Custom domain**: Cloudflare dashboard → Workers & Pages →
+  `mazzag-website` → Custom domains → add `www.mazza-consulting.com`
+  (and the apex `mazza-consulting.com` with a redirect to `www`, if desired).
+- **Email Routing**: Cloudflare dashboard → the `mazza-consulting.com`
+  zone → Email → Email Routing → enable, then add a routing rule
+  forwarding the address(es) you want to your inbox.
