@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="markTitle">
   <title id="markTitle">Mazza Strategic Finance Consulting monogram</title>
-  <rect width="64" height="64" rx="3" fill="#8ca38b"/>
-  <text x="32" y="41" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" fill="#1b241f" text-anchor="middle">M</text>
+  <rect width="64" height="64" fill="#0e1a2b"/>
+  <rect x="3.5" y="3.5" width="57" height="57" fill="none" stroke="#b8975e" stroke-width="1.5"/>
+  <text x="32" y="44" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="34" font-weight="600" fill="#d4bb8a" text-anchor="middle">M</text>
 </svg>
